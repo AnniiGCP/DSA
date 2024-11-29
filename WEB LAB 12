@@ -1,0 +1,308 @@
+Home.html
+<frameset rows="40%,*">
+<frame src="top.html" noresize scrolling="NO" name="topframe">
+<frameset cols="15%,*">
+<frame src="left.html" noresize scrolling="NO" name="leftframe">
+<frame src="right.html" noresize name="rightframe" scrolling="auto">
+</frameset> </frameset>
+Top.html
+<html>
+<head>
+<title>Top Frame</title>
+</head>
+<body bgcolor="YellowGreen ">
+<img src="ks.jpg" width="150" height="150" align="left">
+<img src="taj.jpg" width="150" height="150" align="right">
+<img src="leftlogo.png" width="150" height="150" align="left">
+<center>
+<marquee bgcolor="yellow" width="650" behavior="alternate">
+<font face="Brush Script MT" size="6" color="green"><b><i>K. S. INSTITUTE OF
+TECHNOLOGY</i></b>
+</font>
+</marquee> <br>
+<font face="Brush Script" size="5" color="white"><b>No.14, Raghuvanahalli, Kanakapura
+Road, Bengaluru - 560109, Ph:9900710055</b></font><br>
+<font face="Brush Script" size="5" color="white">Affiliated to VTU, Belagavi & Approved
+by AICTE, New Delhi, Accredited by NBA , NAAC & IEI</b></font>
+</center>
+<br>
+<table width="100%" height="30%" cellspacing=10>
+<tr align="center">
+<td> <a href="fixed.html" target="_parent"><font face="Brush Script" size="6"
+color="navy">HOME</a> </td>
+<td> <a href="ksliquid.html" target="_parent"><font face="Brush Script" size="6"
+color="navy">ABOUT US </a> </td>
+<td> <a href="app.html" target="center"><font face="Brush Script" size="6"
+color="navy">APPLY JOB</a> </td>
+</tr>
+</table>
+</body>
+</html>
+Left.html
+<html>
+<body align="center" bgcolor="bisque"> <br>
+<a href="cse.html" target="rightframe"><font size="6">CSE</font></a><br><br>
+<a href="ece.html" target="rightframe"><font size="6">ECE</font></a><br><br>
+<a href="csd.html" target="rightframe"><font size="6">CSD</font></a><br><br>
+<a href="mech.html" target="rightframe"><font size="6">MECH</font></a><br><br>
+<a href="ai.html" target="rightframe"><font size="6">AI & ML</font></a><br><br>
+<a href="civil.html" target="rightframe"><font size="6">CIVIL</font></a><br><br>
+</body>
+</html>
+Right.html
+<html>
+<body bgcolor="orange">
+<center>
+<img src="ks.jpg" height="300"><br>
+<font face="Brush Script MT" size="25" color="blue">
+<h1><b>Welcome to the KSIT!!!</b></font><br />
+<font face="Brush Script MT" size="15" color="red">
+<h2><b> "A Huge Collection of KS GROUPS"</b></h2></font>
+</center>
+</body>
+</html>
+Ai.html
+<html>
+<body bgcolor="lightgreen">
+<h1><font color="blue">WELCOME TO OUR AI AND ML DEPARTMENT</font></h1>
+<img src="5.jpg" width="300" height="300" align="center">
+</body>
+</html>
+Csd.html
+<html>
+<body bgcolor="Plum">
+<h1 align="center"><font color="blue">WELCOME TO OUR COMPUTER SCIENCE AND
+DESIGN</font></h1>
+<img src="sat.jpg" width="150" height="150" align="center">
+</body>
+</html>
+Cse.html
+<html>
+<head><title>CSE</title></head>
+<body bgcolor="cyan">
+<center><font color="blue"><h1>Welcome to Computer Science and
+Engineering</h1></font></center>
+<img src="1.jpg" width="300" height="300" align="center">
+</body> </html>
+Ece.html
+<html>
+<body bgcolor="Plum">
+<h1><font color="blue">WELCOME TO OUR ECE DEPARTMENT</font></h1>
+<img src="2.jpg" width="300" height="300" align="center">
+</body>
+</html>
+Mech.html
+<html>
+<body bgcolor="PRUPLE">
+<h1><font color="white">WELCOME TO OUR MECHANICAL ENGINEERING
+DEPARTMENT</font></h1>
+<img src="4.jpg" width="300" height="300" align="center">
+</body>
+</html>
+Civil.html
+<html>
+<body bgcolor="violet">
+<h1 align="center"><font color="blue">WELCOME TO OUR CIVIL ENGINEERING
+DEPARTMENT</font></h1>
+<img src="3.jpg" width="300" height="300" align="center">
+</body>
+</html>
+App.html
+<?php include 'pg12.php';?>
+<!DOCTYPE html>
+<html>
+<head>
+<title>JOB APPLICATION</title>
+</head>
+<center>
+<body>
+<h1> JOB APPLICATION FORM</h1>
+<div style="background-color:#7719AA;margin:30%;padding-top:15px;margin-top: 10px;
+color:white;font-size:15px">
+<form action="pg12.php" method="post" enctype="multipart/form-data">
+<table cellspacing="10px" cellpadding="5%" align="left">
+<tr>
+<p style="color:yellow;" style="font-family: sans-serif" ><font size="5"><b>Please enter
+your information in the form below and the attach your resume.
+ </font></b> </p></tr>
+<tr>
+<td>First Name:<font color="red">* </font></td>
+<td><input type="text" name="FirstName" placeholder="FirstName"
+style="width:100%;size:30;padding: 5px;"/></td>
+</tr>
+<tr>
+<td>Last Name:</td>
+<td><input type="text" name="LastName" placeholder="LastName"
+style="width:100%;padding: 5px;"></td>
+</tr>
+<tr>
+<td>Date of birth:<font color="red">* </font></td>
+<td><input type="text" name="Date" placeholder="DD/MM/YYYY"
+style="width:100%;padding: 5px;"/></td>
+</tr>
+<tr>
+<td>Email id:<font color="red">* </font></td> &nbsp;&nbsp;&nbsp;
+<td><input type="text" name="Email" placeholder="Email" style="width:100%;padding:
+5px;"/>
+<font color="red">(one e-mail id only):</font>
+<font color="yellow">e.g. smith@hotmail.com</font></td><br />
+</tr>
+<tr>
+<td>Mobile no:<font color="red">* </font></td>
+<td><input type="text" name = "Mobile" placeholder="Mobile no"
+style="width:100%;padding: 5px;"/></td>
+</tr>
+<tr>
+<td>Designation:<font color="red">* </font></td>
+<td><select style="width:100%;padding: 5px;">
+<option value="Principal">Principal</option>
+<option value="HOD">HOD</option>
+<option value="Associate Professor">Associate Professor</option>
+<option value="Asst. Professor">Asst. Professor</option>
+<option value="Lecturer">Lecturer</option>
+<option value="Software Engineer">Software Engineer</option>
+<option value="System Admin">System Admin</option>
+<option value="Professor">Professor</option>
+<option value="Instructor">Instructor</option>
+</select></td>
+</tr>
+<td>Years Of Experience:<font color="red">* </font></td>
+<td><input type="text" name = "years’ Experience" placeholder="number"
+style="width:100%; padding: 5px;"/></td>
+</tr>
+<tr>
+<td>Address:<font color="red">* </font></td>
+<td><textarea name = "Address" rows="5" cols="40" ></textarea></td>
+</tr>
+<tr>
+<td>Gender:<font color="red">* </font></td>
+<td><input type="radio" name="Gender">male<input type="radio"
+name="Gender">female</td>
+</tr>
+<tr>
+<td>Country:</td>
+<td><select style="width:100%;padding: 5px;">
+<option value="India">India</option>
+<option value="Pakistan">Pakistan</option>
+<option value="England">England</option>
+<option value="Australia">Australia</option>
+<option value="Newzealand">Newzealand</option>
+<option value="USA">USA</option>
+<option value="Canada">Canada</option>
+<option value="German">German</option>
+<option value="Italy">Italy</option>
+</select></td>
+</tr>
+<tr>
+<td>Hobbies:</td>
+<td><input type="checkbox" name="Hobbies" sstyle="margin-left:1%">Drawing and
+Painting
+<input type="checkbox" name="Hobbies">Singing
+<input type="checkbox" name="Hobbies">Dancing<br>
+<input type="checkbox" name="Hobbies">Reading Books
+<input type="checkbox" name="Hobbies">Cooking</td>
+</tr>
+<div>
+<table>
+<tr>
+<td>Qualification:</td>
+<td>ScNo</td>
+<td>Examination</td>
+<td>Board</td>
+<td>Percentage</td>
+<td>Year of passing</td>
+</tr>
+<tr>
+<td></td>
+<td>1.</td>
+<td>class X</td>
+<td><input type="text" name="Board_10" style="width:90%" /></td>
+<td><input type="text" name="Percentage_10" style="width:90%" /></td>
+<td><input type="text" name="Year_10"style="width:90%" /></td>
+</tr>
+<tr>
+<td></td>
+<td>2.</td>
+<td>class XII</td>
+<td><input type="text" name="Board_12" style="width:90%"/></td>
+<td><input type="text" name="Percentage_12" style="width:90%"/></td>
+<td><input type="text" name="Year_12" style="width:90%"/></td>
+</tr>
+<tr>
+<td></td>
+<td>3.</td>
+<td>Graduation</td>
+<td><input type="text" name="Board" style="width:90%"/></td>
+<td><input type="text" name="Percentage" style="width:90%"/></td>
+<td><input type="text" name="Year of passing" style="width:90%"/></td>
+</tr>
+<tr>
+<td></td>
+<td>4.</td>
+<td>Masters</td>
+<td><input type="text" name="Board" style="width:90%"/></td>
+<td><input type="text" name="Percentage" style="width:90%"/></td>
+<td><input type="text" name="Year of passing" style="width:90%"/></td>
+</tr>
+<tr>
+<form action="pg12.php" method="post" enctype="multipart/form-data">
+Select File to upload:
+ <input type="file" name="myfile"><br>
+ </form>
+</tr>
+<tr>
+<td></td>
+<td><button type="submit" name="save">upload and save</button</td>
+<td><input type="reset" name="reset"></td></tr>
+</table>
+</table>
+</div></form>
+</div>
+</body>
+</html>
+Pg12.php
+<?php
+$Server = "localhost";
+$username = "root";
+$password = "";
+$db = "job";
+$con = mysqli_connect($Server,$username,$password,$db);
+if(!$con)
+{
+die("connection failed : ".mysqli_connect_error());
+}
+if (isset($_POST['save']))
+{ // if save button on the form is clicked
+ // name of the uploaded file
+ $filename = $_FILES['myfile']['name'];
+ // destination of the file on the server
+ $destination = 'uploads/' . $filename;
+ // get the file extension
+ $extension = pathinfo($filename, PATHINFO_EXTENSION);
+ // the physical file on a temporary uploads directory on the server
+ $file = $_FILES['myfile']['tmp_name'];
+ $size = $_FILES['myfile']['size'];
+ if (!in_array($extension, ['zip', 'pdf', 'doc', 'docx'])) {
+ echo "You file extension must be .zip, .pdf, .doc or .docx";
+ } elseif ($_FILES['myfile']['size'] > 1000000) { // file shouldn't be larger than 1Megabyte
+ echo "File too large!";
+ } else {
+ if (move_uploaded_file($file, $destination)) {
+$sql = "insert into form
+values('".$_POST['FirstName']."','".$_POST['LastName']."','".$_POST['Date']."','".$_POST['
+Email']."','".$_POST['Mobile']."','".$_POST['yearsExperience']."','".$_POST['Address']."','".$
+_POST['Gender']."','".$_POST['Hobbies']."','".$_POST['Board_10']."','".$_POST['Percentage
+_10']."','".$_POST['Year_10']."','".$_POST['Board_12']."','".$_POST['Percentage_12']."','".$_
+POST['Year_12']."')";
+if (mysqli_query($con, $sql)) {
+ echo "<h2>File uploaded successfully</h2>";
+ }
+ } else {
+ echo "<h2>Failed to upload file.</h2>";
+ }
+//echo "<h2>Thank you, your information has been stored in our Database.</h2>";
+}
+}
+echo "<h2>Thank you, your information has been stored in our Database.</h2>";
+mysqli_close($con);
+?>
