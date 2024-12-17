@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<title> RESUME </title>
+<body>
+<img src="sathya.jpg" align ="right" height=100 width=100 >
+<h1> <center> <font size=6> <b><u> CURRICULUM VIATE </u> </b> </font> </center>
+</h1> <br>
+ <p> <font size=4 align="left"> SATHYA SHEELA D <br>
+#19,avs colony,Bangalore-98 <br>
+ Ph: 988644604 <br>
+ E-Mail: sathyasheela38@gmail.com
+</p>
+</font>
+<hr>
+<h3> <u> CARRIER OBJECTIVES </u></h3>
+<p>
+<font size=4> To be a part of an organization where I can devote myself fully and joyfully give out
+best of my talents.</font>
+</p>
+<h3> <u>STRENTGH</u></h3>
+<p> <font size=4> Young talented to learn new skills. <br> Honest to my work.</font></p>
+<h3><u> TECHNICAL PROFICIENCY</u></h3>
+<font size=4>
+<li> Languages Known: C,C++,Java.</li>
+<li> Databases: SQL, PLSQL, MySQL.</li>
+<li> Web Technologies: Html, PHP, JSP.</li>
+<li> Operating Systems: Windows XP,NT,7,Linux.</li></font></p>
+<h3> <u>EDUCATIONAL QUALIFICATION</u> </h3>
+<font size=4>
+<li> SSLC with an aggregrate of 80% from BET Convent.</li>
+<li> DIPLOMA/PUC with an aggregrate of 75% from Deeksha PU College.</li>
+<li> B.E in CSE with an aggregrate 0f 85% from DSCE College.</li>
+<li> M.Tech in CSE with an aggregrate of 90% from KSSEM College</li></font>
+<h3><u> PROJECT</u></h3>
+<font size=4>
+<li> Title: Cloud Security.</li>
+<li> Duration: 3 Months.</li>
+<li> Project Details: The aim of this paper was to analyze the issue of the Cloud security solutions as
+well as to design a secure access for a demonstrative cloud application.
+Several security items have been chosen for a secure access to the Cloud.</li>
+</font>
+<h3><u> EXPERIENCE</u></h3>
+<font size=4>
+<li> I have worked as an Software Engineer in Infosys for 3 Years.</li>
+<li> I have 10 years of Teaching Experience in Degree and Engineering College. </li>
+</font>
+<h3> <u> PERSONAL PROFILE </u> </h3>
+<font size=4>
+<p>
+Father's Name: DORAI<br>
+Mother's Name: CHITHRA<br>
+DOB: 13/04/1989<br>
+Address: AvS Colony, Bangalore-98<br>
+Religion: Hindu<br>
+Nationality: INDIAN<br>
+Gender: Female<br>
+Hobbies: Music, Tennis playing, Dance, Reaing Books.<br>
+</font>
+</p>
+<h3 align="center"><u> DECLARATION </u> </h3>
+<font size=4>
+<p> I Declare that all above mentioned information is true to my knowledge and belief.</p>
+</font>
+<p>Date: <br>
+ Place: </p> <p align="right"> Signature </p>
+</body>
+</html>
