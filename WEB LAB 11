@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>PHP File create/write/read Example</title>
+</head>
+<body class="bg-img">
+<center>
+<style>
+body {
+background-color:pink
+}
+h1 { color: yellow}
+.bg-img {
+background-image: url("6.jpg");
+background-repeat: repeat-x;
+}
+.input-fields
+{
+width:25%;
+height:40px;
+}
+.margin {
+margin:10px;
+}
+.btn
+{
+background-color:#ff123f;
+color:whitesmoke;
+font-size:25;
+font-weight:bold;
+width:25%;
+height:40px;
+}
+</style>
+<FORM method="POST">
+<h1>Enter the Information : </h1><input type="text" name="name" class="margin input-fields"/>
+<br/>
+</center>
+<br/><center>
+<input type="submit" name="Submit1" value="Write File" class="margin input-fields btn"/>
+<input type="submit" name="Submit2" value="Read File" class="margin input-fields btn"/>
+</FORM>
+</center>
+<?php
+if(isset($_POST['Submit1']))
+{
+//open file abc.txt in append mode
+$myfile = fopen("pqr.txt", "a");
+$text = $_POST["name"];
+fwrite($myfile, $text);
+fclose($myfile);
+}
+?>
+<?php
+if(isset($_POST['Submit2']))
+{
+$filename = fopen( "pqr.txt", "r" );
+if( $filename == true )
+{
+$filesize = filesize("pqr.txt" );
+$filecontent = fread( $filename, $filesize );
+fclose( $filename );
+echo ( " <h1> File Content = $filecontent </h1>" );
+echo ( " <h1> File size : $filesize bytes </h1>" );
+}
+else
+{
+echo "Error !! Try again" ;
+}
+}
+?>
+</body>
+</html>
