@@ -1,0 +1,207 @@
+Home.html
+<html>
+<head>
+<title> KS GROUP OF INSTITUTIONS</title>
+</head>
+<body>
+<center>
+<h1> KS GROUP OF INSTITUTIONS</h1>
+<img src="kssem.jpg" height="400" width="400">
+</center>
+<center>
+<h2> CENTERS IN KAMMAVARI SANGHA GROUP</h2>
+<a href="ksliquid.html"><h2>KSIT</h2></a>
+<a href="fixed.html"><h2>KSSEM</h2></a>
+</center>
+</body>
+</html>
+Ksliquid.html
+<html>
+<head>
+<body>
+<header>
+<marquee>
+ <h1>Kammavari Sangham (R) 1952, K.S.Group of Institutions</h1>
+</marquee>
+</header>
+ <section>
+ <nav>
+<ul>
+ <li><a href="#">Home</a></li>
+ <li><a href="#">Learn HTML</a></li>
+ <li><a href="#">About Us</a></li>
+ </ul>
+ </nav>
+ <article>
+ <h1> <center> WELCOME TO K.S. INSTITUTE OF TECHNOLOGY </center>
+</h1>
+<p>The Kammavari Sangham, a multi-activity non-profit oriented voluntary service organization, was
+established in the year 1952 with the sole objective of providing charitable service to community and
+society.<br>
+The Sangham has diversified its activities since its establishment over five decades ago. With a firm
+belief that quality and meaningful education only can lay the strong foundation for bringing about
+economic and social changes to the lives of thousand, the Sangham went about establishing
+educational institutions, starting with K.S. Polytechnic in 1992.
+Enthused with this success of its foray into technical education, the Sangham moved forward by
+starting the K.S Institute of Technology (KSIT).<br>
+Its Engineering College in the year 1999.</p>
+ </article>
+ </section>
+ </body>
+<style>
+ * {
+ box-sizing: border-box;
+ }
+body {
+ font-family: Arial, Helvetica, sans-serif;
+}
+ header {
+background-color: lightblue;
+ text-align: center;
+ padding: 10px;
+ font-size: 30px;
+ color: green;
+ }
+ nav {
+webkit-flex: 1;
+ -ms-flex: 1;
+ flex: 1;
+ float: left;
+ width: 50%;
+ height: 20px;
+ background: #fff;
+ padding: 10px;
+ }
+ nav ul {
+ list-style-type: none;
+ padding: 0;
+ }
+ article {
+ -webkit-flex: 3;
+ -ms-flex: 3;
+ flex: 3;
+ float: left-justify;
+ padding: 10px;
+ width: 100%;
+ background-color: #f1f1f1;
+height: 50px;
+ }
+ section {
+ -webkit-flex-direction: column;
+ flex-direction: column;
+ }
+ footer {
+ background-color: lightblue;
+ padding: 10px;
+font-size: 20px;
+ text-align: center;
+ color: green;
+ }
+section {
+ display: -webkit-flex;
+ display: flex;
+}
+</style>
+</head>
+<section>
+<body>
+<br>
+<table border="10" align="bottom" style="background-color:pink">
+<tr>
+<th> KSIT BRANCHES </th>
+<th> year established </th>
+<th> Intake </th>
+</tr>
+<center>
+<tr>
+<td> CSD </td>
+<td> 2023</td>
+<td> 80</td>
+</tr>
+<tr>
+<td> CSE </td>
+<td> 1999</td>
+<td> 100</td>
+</tr>
+<tr>
+<td> AI AND ML </td>
+<td> 2020</td>
+<td> 40</td>
+</tr>
+<tr>
+<td> CIVIL ENGG </td>
+<td> 1995</td>
+<td> 60</td>
+</tr>
+</center>
+</table>
+<br>
+</section>
+<footer>
+ <h2>Footer</h2>
+</footer>
+</body>
+</html>
+Fixed.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<header>
+<marquee>
+ <h1>Kammavari Sangham (R) 1952, K.S.Group of Institutions</h1>
+</marquee>
+</header>
+<style>
+body {
+width: 650px;
+font-family: sans-serif;
+line-height: 1.5;
+padding: 0 40px;
+}
+h1 {
+margin-bottom: 0;
+}
+header {
+ background-color: lightblue;
+ text-align: center;
+width=100%;
+ padding: 10px;
+ font-size: 30px;
+ color: green;
+ }
+article {
+ float: left-justify;
+ padding: 100px;
+ width: 69%;
+ background-color: #f1f1f1;
+ height: 300px;
+ }
+</style>
+</head>
+<body>
+<main>
+<article>
+<p>
+The Department of Mechanical Engineering in association with K S Research and Innovation
+Foundation is organising an event 'Insight from Leader' on 24th November 2023 at KSSA Auditorium.
+The famous MTR and Maiyas Company Founder Dr Sadananda Maiya will be addressing the
+Gathering.
+Eagerly waiting to hear to the inspirational speech by the eminent resource person.
+</p>
+<p>
+Explore the Department of AI & DS at KSSEM, dedicated to molding AI professionals with a
+focus on technical research, entrepreneurship, and ethical practices.
+Our dynamic faculty and cutting-edge research establish us as a hub for knowledge and
+innovation.
+KSSEM transcends traditional learning – it's a vibrant community where aspirations soar.
+Boasting top-notch facilities, a diverse student body, and an unwavering commitment to
+excellence, we're crafting the leaders of tomorrow.
+Embark on a thrilling journey of discovery and personal growth with us! Keep an eye out for
+updates, events, and exciting opportunities from the Department of AI & DS at KSSEM.
+Don't miss the Microsoft workshop on Azure AI Fundamentals scheduled for November 25-
+26 and December 2-3. Join us and delve into the world of AI!
+</p>
+</article>
+</main>
+</body>
+</html>
