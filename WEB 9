@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<?php
+if(isset($_POST['submit']))
+{
+$user=$_POST['username'];
+$pass=$_POST['password'];
+if($user=="admin" && $pass=="123")
+{
+echo'<script>alert("USERNAME AND PASSWORD MATCHED")</script>';
+}
+else
+{
+echo'<script>alert("Error!PLEASE ENTER CORRECT DATA")</script>';
+}
+}
+?>
+<html>
+<head>
+<style>
+.bg-img {
+background-image: url("taj.jpg");
+background-repeat: repeat-x;
+}
+.margin {
+margin:5px;
+}
+.input-fields
+{
+width:60%;
+height:25px;
+}
+.btn
+{
+background-color:#1f223f;
+color:whitesmoke;
+width:20.5%;
+height:30px;
+border:none;
+}
+button:hover{
+cursor:pointer;
+}
+.center
+{
+margin:auto;
+padding:10px;
+}
+.justify
+{
+margin-top:10%;
+width:30%;
+background-color:lightgreen;
+}
+div:hover {
+background-color:pink;
+}
+</style>
+</head>
+<body class="bg-img">
+<div class="center justify">
+<div style="text-align:center; margin-top:10%">
+<h1 style="color:black"> LOGIN FORM </h1>
+<form action="" method="post">
+<label for="username"><b>User Name</b></label>
+<input type="text" placeholder="ENTER USERNAME" name="username" class="margin
+input-fields"> <br>
+<label for="pwd"><b>Password</b></label>
+<input type="text" placeholder="ENTER PASSWORD" name="password" class="margin
+input-fields"> <br>
+<button type="submit" name="submit" value="submit" class="margin btn"> LOGIN
+</button>
+</form>
+</div>
+</div>
+</body>
+</html>
