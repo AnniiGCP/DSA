@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<title> TIME TABLE </title>
+<head>
+<link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+<header>
+<h1 align="center" color: "blue"><u> COLLEGE TIME TABLE</u> </h1>
+</header>
+<table border="3">
+<thead>
+<tr>
+<td id="sub1"> </td>
+<td id="sub"><b> 8:30-9:20</b> </td>
+<td id="sub"><b> 9:25-10:20</b> </td>
+<td id="sub"><b> 10:20-10:35 </b></td>
+<td id="sub"><b> 10:35-11:30</b> </td>
+<td id="sub"><b> 11:30-12:25</b> </td>
+<td id="sub"><b> 12:25-1:15</b> </td>
+<td id="sub"><b> 1:15-2:10</b></td>
+<td id="sub"><b> 2:10-3:05</b> </td>
+<td id="sub"><b> 3:05-4:00</b> </td>
+</tr>
+</thead>
+<tbody>
+<tr align="center">
+<td id="sub"><b> MONDAY</b> </td>
+<td id="blank"> ---- </td>
+<td id="box1"> C </td>
+<td rowspan="6">T<br>E<br>A<br>-<br>B<br>R<br>E<br>A<br>K<br></td>
+<td id="box2"> Maths </td>
+<td id="box3"> DS </td>
+<td rowspan="6">L<br>U<br>N<br>C<br>H<br></td>
+<td colspan="3" id="s"> SEMINAR </td>
+</tr>
+<tr align="center">
+<td id="sub"> <b>TUESDAY</b> </td>
+<td id="box1"> C++ </td>
+<td id="box2"> EVS </td>
+<td id="box3"> Maths </td>
+<td id="box4"> DS </td>
+<td colspan="3" id="sub2"> CN LAB </td>
+</tr>
+<tr align="center">
+<td id="sub"><b> WEDNESDAY</b> </td>
+<td id="box1"> SPORTS </td>
+<td id="box2"> EVS </td>
+<td id="box3"> Maths </td>
+<td id="box4"> CN </td>
+<td id="blank"> ---- </td>
+<td id="box6"> DS </td>
+<td id="box7"> C++ </td>
+</tr>
+<tr align="center">
+<td id="sub"> <b>THURSDAY</b> </td>
+<td colspan="2" id="sub3"> WEB LAB </td>
+<td id="box3"> LIBRARY </td>
+<td id="box4"> EVS </td>
+<td id="blank"> ---- </td>
+<td id="box6"> DS </td>
+<td id="b0x7">---</td>
+</tr>
+<tr align="center">
+<td id="sub"><b> FRIDAY</b> </td>
+<td colspan="2" id="s"> SEMINAR </td>
+<td id="box3"> EVS </td>
+<td id="box4"> Maths </td>
+<td id="box5"> CN </td>
+<td id="blank"> ---- </td>
+<td id="box7"> DS </td>
+</tr>
+<tr align="center">
+<td id="sub"><b> SATURDAY</b> </td>
+<td id="box1"> CN </td>
+<td id="box2"> EVS </td>
+<td id="box3"> Maths </td>
+<td id="box4"> ----</td>
+<td colspan="3" id="seminar"> SEMINAR </td>
+</tr>
+</tbody>
+</table> </body> </html>
+Style.css
+body {
+background-color:pink;
+ }
+header h1 {
+ margin-top:10%;
+ text-align:center;
+ color:blue;
+ font-weight:bold;
+ font-family:Sans-Serif;
+ }
+table {
+margin-top:2%;
+width:max-content;
+border:1px solid black;
+height:300px;
+margin-left:10%;
+ }
+td {
+text-align:center;
+border:1px solid black;
+ }
+#blank {
+color:black;
+background-color:white;
+ }
+#s {
+font-weight:800;
+text-transform:uppercase;
+font-family:Sans-Serif;
+background-color:yellow;
+ }
+#seminar {
+font-weight:800;
+font-family:Sans-Serif;
+background-color:yellow;
+text-transform:uppercase;
+}
+#sub {
+color:black;
+font-weight:400;
+font-family:Sans-Serif;
+background-color:lightgreen;
+ }
+#sub1 {
+ background-color:orange;
+ }
+#sub2 {
+color:black;
+text-transform:uppercase;
+background-color:red;
+ }
+#sub3 {
+background-color:green;
+font-weight:400;
+font-family:Sans-Serif;
+ }
+#box1 {
+color:cornflowerblue;
+font-weight:800;
+font-family:Sans-Serif;
+ }
+#box2 {
+color:darkorange;
+font-weight:800;
+font-family:Sans-Serif;
+ }
+#box3 {
+color:darkviolet;
+font-weight:800;
+font-family:Sans-Serif;
+ }
+#box4 {
+color:green;
+font-weight:800;
+font-family:Sans-Serif;
+ }
+#box5 {
+color:red;
+font-weight:800;
+font-family:Sans-Serif;
+ }
+#box6 {
+color:hotpink;
+font-weight:800;
+font-family:Sans-Serif;
+ }
+#box7 {
+color:blue;
+font-weight:800;
+font-family:Sans-Serif;
+ }
