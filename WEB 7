@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Palindrome Program</title>
+</head>
+<body >
+<style>
+body {
+background-color:pink
+}
+h1 { color: blue}
+h2 { color: green}
+.input-fields {
+width:25%;
+height:40px;
+}
+.margin {
+margin:10px;
+}
+.btn {
+background-color:#ff123f;
+color:whitesmoke;
+font-size:25;
+width:25%;
+height:40px;
+}
+</style>
+<form method="post" action="">
+<h1> <center>PALINDROME AND COUNT THE NUMBERS</center> </h1>
+<h2>Enter the Number </h2>
+<input type="text" name="number" value="" class="margin input-fields"/>
+<input type="submit" name="submit" value="Submit" class=" margin btn"/>
+</form>
+<?php
+if(isset($_POST['number'])) {
+$input = $_POST['number'];
+$reverse = strrev($input);
+if($reverse == $input) {
+echo "<h2> $input is a palindrome </h2>";
+echo "<br>";
+}
+else {
+echo "<h2> $input is not a palindrome</h2>";
+echo "<br>";
+}
+echo "<h2> The number of the digits in the given number is: </h2>" ;
+echo "<h2>" .strlen($input). "</h2>";
+}
+?>
+</body>
+</html>
