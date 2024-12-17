@@ -1,0 +1,34 @@
+<html>
+<body>
+<h1> AREA OF CIRCLE, RECTANGLE AND TRIANGLE </h1>
+<form method="POST" action="">
+Enter the First Number
+<input type = "number" name = "n1">
+<br/>
+Enter the second number
+<input type = "number" name = "n2">
+<br/>
+<input type= "submit" value = "Calculate Area" name="submit">
+</form>
+</body>
+</html>
+<?php
+if(isset($_POST['submit']))
+{
+$length=$_POST['n1'];
+$width=$_POST['n2'];
+echo "Area of Rectangle with $length * $width= " . ($length * $width) . "<br />";
+}
+if(isset($_POST['submit']))
+{
+$base=$_POST['n1'];
+$height=$_POST['n2'];
+echo "Area of Triangle with base $base and height $height= " .($base * $height) / 2 ."<br/>";
+}
+if(isset($_POST['submit']))
+{
+$pi=3.14;
+$radius=6;
+echo "Area of Circle with $pi and radius $radius= ". ($pi*$radius * $radius);
+}
+?>
